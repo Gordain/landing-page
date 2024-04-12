@@ -1,0 +1,42 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.navbar {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 0 100px;
+}
+
+.herobar{
+    padding: 0 100px;
+}
+
+.content-container {
+    padding: 0 100px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 0 100px;
+}
+
+.call-to-action {
+    padding: 0 100px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#logo {
+    size: 24px;
+    color: #f9faf8;
+}
