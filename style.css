@@ -4,6 +4,7 @@ body {
     font-family: "Roboto";
     margin: 0;
     padding: 0;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -46,6 +47,8 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-top: auto;
+    height: 40px;
 }
 
 #logo {
