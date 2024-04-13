@@ -2,6 +2,8 @@ body {
     display:flex;
     flex-direction: column;
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -12,6 +14,8 @@ body {
 }
 
 .herobar{
+    background-color: #1F2937;
+    color: white;
     padding: 0 100px;
 }
 
