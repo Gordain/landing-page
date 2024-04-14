@@ -7,6 +7,13 @@ body {
     min-height: 100vh;
 }
 
+button {
+    border-radius: 5px;
+    border: #3882f6;
+    width: 80px;
+    height: 20px;
+}
+
 .navbar {
     display: flex;
     background-color: #1F2937;
@@ -16,9 +23,11 @@ body {
 }
 
 .herobar{
+    display: flex;
     background-color: #1F2937;
     color: white;
-    padding: 0 100px;
+    padding: 20px 100px;
+    gap: 20px;
 }
 
 .content-container {
@@ -72,6 +81,7 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 button {
