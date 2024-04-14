@@ -31,7 +31,14 @@ button {
 }
 
 .content-container {
+    display: flex;
     padding: 0 100px;
+}
+
+.small-img {
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
 }
 
 .quote-container {
