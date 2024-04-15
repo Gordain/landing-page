@@ -72,11 +72,29 @@ cite {
 }
 
 .call-to-action {
-    padding: 0 100px;
+    padding: 80px 100px;
+    color: #e5e7eb;
 }
 
 .call-to-action-bar {
+    display: flex;
+    padding: 40px 0;
     background-color: #3882f6;
+    border-radius: 10px;
+}
+
+#call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#call-to-action-title {
+    font-weight: 900;
+}
+
+.call-to-action-button {
+    border: #e5e7eb;
 }
 
 .footer {
