@@ -53,10 +53,22 @@ button {
 
 .quote-container {
     background-color: #e5e7eb;
+    padding: 30px 100px;
+}
+
+blockquote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 0 100px;
+    padding: 0 20px;
+}
+
+cite {
+    display: flex;
+    font-weight: 900;
+    color: #1F2937;
+    justify-content: flex-end;
+    margin-right: 100px;
 }
 
 .call-to-action {
